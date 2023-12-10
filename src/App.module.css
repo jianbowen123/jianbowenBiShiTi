@@ -1,0 +1,19 @@
+.app {
+    background: white;
+    margin: 19px 19px 0 17px;
+    padding: 31px 0 28px;
+}
+
+
+.title {
+    font-size: 32px;
+    margin-left: 23px;
+    font-weight: 600;
+}
+
+.redPacketList {
+    margin: 22px 11px 0 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}

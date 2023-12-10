@@ -1,0 +1,34 @@
+.countdownBox {
+  color: var(--opcityYellowFontColor);
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  height: 32px;
+  gap: 5px;
+  font-size: 22px;
+}
+
+.countdownText{
+  margin-right: 10px;
+}
+
+.num {
+  line-height: 32px;
+  border-radius: 3.4px;
+  color: #FF4000;
+  width: 34px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, #FFE9B0, #FFF1CE);
+  overflow: hidden;
+}
+
+.colon {
+  height: 32px;
+  line-height: 28px;
+}

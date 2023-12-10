@@ -1,0 +1,92 @@
+.itemBox {
+  width: 100%;
+  background: url('https://gw.alicdn.com/imgextra/i1/O1CN01SzXzZl1U46EOknhoB_!!6000000002463-2-tps-1380-362.png') no-repeat;
+  background-size: 100% 100%;
+  width: 690px;
+  height: 162px;
+  display: flex;
+}
+
+.leftMoney {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+  width: 200px;
+}
+
+.num {
+  font-size: 68px;
+  color: var(--brownFontColor);
+  height: 80px;
+  line-height: 80px;
+  margin-top: 40px;
+  max-width: 150px;
+  overflow: hidden;
+}
+
+.unit {
+  font-size: 28px;
+  color: var(--brownFontColor);
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 68px;
+}
+
+.centerText {
+  flex: 1;
+  padding-top: 25px;
+}
+
+.title {
+  color: var(--yellowFontColor);
+  font-size: 36px;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 4px;
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;  
+}
+
+.description {
+  margin-top: 4px;
+  font-size: 22px;
+  color: var(--yellowFontColor);
+  height: 30px;
+  line-height: 30px;
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;  
+}
+
+.time {
+  margin-top: 16px;
+}
+
+.restTimeBox{
+  font-size: 20px;
+  color: var(--yellowFontColor);
+}
+
+.rightButton {
+  display: flex;
+  align-items: center;
+  width: calc(146px + 26px);
+}
+
+.status {
+  width: 146px;
+  height: 64px;
+  background: linear-gradient(to right, #ffe2bb, #fed78a);
+  border-radius: 30px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  line-height: 64px;
+  color: var(--brownFontColor);
+  font-weight: 400;
+  overflow: hidden;
+  white-space: nowrap;
+}
